@@ -1,5 +1,5 @@
 ﻿@page "/dynamic"
-
+@*frome <h3></h3> to <div></div> it's call the View of the component*@
 <h3>our first Dynamic Component</h3>
 
 <br />
@@ -17,9 +17,11 @@
 </div>
 
 @code {
+    //these two variables represent the State of the coomponent
     private string title;
     private string content;
 
+    //these two Handle it's represent the Event of the component
     private void HandleBlazorServerClick()
     {
         title = "Blazor Server";
