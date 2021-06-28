@@ -93,9 +93,11 @@ using MyFirstBlazorApp.Shared;
 #nullable restore
 #line 19 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\DynamicComponent.razor"
        
+    //these two variables represent the State of the coomponent
     private string title;
     private string content;
 
+    //these two Handle it's represent the Event of the component
     private void HandleBlazorServerClick()
     {
         title = "Blazor Server";
