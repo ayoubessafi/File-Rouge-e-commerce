@@ -56,3 +56,5 @@ C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBl
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\MyFirstBlazorApp.pdb
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\MyFirstBlazorApp.genruntimeconfig.cache
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\MyFirstBlazorApp.csproj.CopyComplete
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\DynamicComponent.razor.g.cs
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\Razor\Pages\DynamicComponent.razor.g.cs

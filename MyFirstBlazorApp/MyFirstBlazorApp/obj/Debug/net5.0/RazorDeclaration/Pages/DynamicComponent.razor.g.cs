@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace MyFirstBlazorApp.Shared
+namespace MyFirstBlazorApp.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,8 @@ using MyFirstBlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/dynamic")]
+    public partial class DynamicComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,16 +91,23 @@ using MyFirstBlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Shared\NavMenu.razor"
+#line 19 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\DynamicComponent.razor"
        
-    private bool collapseNavMenu = true;
+    private string title;
+    private string content;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private void HandleBlazorServerClick()
     {
-        collapseNavMenu = !collapseNavMenu;
+        title = "Blazor Server";
+        content = "some thing!!!";
     }
+
+    private void HandleWebAssemblyClick()
+    {
+        title = "Blazor WebAssembly";
+        content = "some things!!!";
+    }
+
 
 #line default
 #line hidden
