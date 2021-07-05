@@ -58,3 +58,11 @@ C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBl
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\MyFirstBlazorApp.csproj.CopyComplete
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\DynamicComponent.razor.g.cs
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\Razor\Pages\DynamicComponent.razor.g.cs
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\bin\Debug\net5.0\eShop.DataStore.HardCoded.dll
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\bin\Debug\net5.0\eShop.UseCases.dll
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\bin\Debug\net5.0\eShope.CoreBusiness.dll
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\bin\Debug\net5.0\eShop.DataStore.HardCoded.pdb
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\bin\Debug\net5.0\eShop.UseCases.pdb
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\bin\Debug\net5.0\eShope.CoreBusiness.pdb
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\SearchProductsComponent.razor.g.cs
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\Razor\Pages\SearchProductsComponent.razor.g.cs

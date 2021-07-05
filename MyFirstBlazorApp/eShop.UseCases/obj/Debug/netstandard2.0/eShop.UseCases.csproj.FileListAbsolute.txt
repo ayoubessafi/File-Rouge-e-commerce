@@ -1,0 +1,12 @@
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\bin\Debug\netstandard2.0\eShop.UseCases.deps.json
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\bin\Debug\netstandard2.0\eShop.UseCases.dll
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\bin\Debug\netstandard2.0\eShop.UseCases.pdb
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\bin\Debug\netstandard2.0\eShope.CoreBusiness.dll
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\bin\Debug\netstandard2.0\eShope.CoreBusiness.pdb
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\obj\Debug\netstandard2.0\eShop.UseCases.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\obj\Debug\netstandard2.0\eShop.UseCases.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\obj\Debug\netstandard2.0\eShop.UseCases.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\obj\Debug\netstandard2.0\eShop.UseCases.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\obj\Debug\netstandard2.0\eShop.UseCases.csproj.CopyComplete
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\obj\Debug\netstandard2.0\eShop.UseCases.dll
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\eShop.UseCases\obj\Debug\netstandard2.0\eShop.UseCases.pdb

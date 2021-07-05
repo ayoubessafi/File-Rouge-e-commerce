@@ -83,6 +83,13 @@ using MyFirstBlazorApp.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\_Imports.razor"
+using eShop.UseCases.SearchProductScreen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\FetchData.razor"
 using MyFirstBlazorApp.Data;
 

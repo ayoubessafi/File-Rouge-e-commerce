@@ -79,6 +79,13 @@ using MyFirstBlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\_Imports.razor"
+using eShop.UseCases.SearchProductScreen;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

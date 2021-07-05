@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "l3C5J+aKH54ucT0rJWG6O5G0JKwtJdy7F4XwyCUmzWRTNFb+BDPi9GcI2HsggSJIpfe5tpD7hf81+ktW5TLbiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrateur\\Desktop\\File-Rouge-e-commerce\\MyFirstBlazorApp\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

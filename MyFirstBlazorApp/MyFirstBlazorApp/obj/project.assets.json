@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "eShop.DataStore.HardCoded/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "eShop.UseCases": "1.0.0",
+          "eShope.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eShop.DataStore.HardCoded.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.DataStore.HardCoded.dll": {}
+        }
+      },
+      "eShop.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "eShope.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eShop.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.UseCases.dll": {}
+        }
+      },
+      "eShope.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/eShope.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShope.CoreBusiness.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "eShop.DataStore.HardCoded/1.0.0": {
+      "type": "project",
+      "path": "../eShop.DataStore.HardCoded/eShop.DataStore.HardCoded.csproj",
+      "msbuildProject": "../eShop.DataStore.HardCoded/eShop.DataStore.HardCoded.csproj"
+    },
+    "eShop.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../eShop.UseCases/eShop.UseCases.csproj",
+      "msbuildProject": "../eShop.UseCases/eShop.UseCases.csproj"
+    },
+    "eShope.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../eShope.CoreBusiness/eShope.CoreBusiness.csproj",
+      "msbuildProject": "../eShope.CoreBusiness/eShope.CoreBusiness.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "eShop.DataStore.HardCoded >= 1.0.0",
+      "eShop.UseCases >= 1.0.0",
+      "eShope.CoreBusiness >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Administrateur\\.nuget\\packages\\": {},
@@ -38,7 +96,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Administrateur\\Desktop\\File-Rouge-e-commerce\\MyFirstBlazorApp\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj": {
+              "projectPath": "C:\\Users\\Administrateur\\Desktop\\File-Rouge-e-commerce\\MyFirstBlazorApp\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj"
+            },
+            "C:\\Users\\Administrateur\\Desktop\\File-Rouge-e-commerce\\MyFirstBlazorApp\\eShop.UseCases\\eShop.UseCases.csproj": {
+              "projectPath": "C:\\Users\\Administrateur\\Desktop\\File-Rouge-e-commerce\\MyFirstBlazorApp\\eShop.UseCases\\eShop.UseCases.csproj"
+            },
+            "C:\\Users\\Administrateur\\Desktop\\File-Rouge-e-commerce\\MyFirstBlazorApp\\eShope.CoreBusiness\\eShope.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\Administrateur\\Desktop\\File-Rouge-e-commerce\\MyFirstBlazorApp\\eShope.CoreBusiness\\eShope.CoreBusiness.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
