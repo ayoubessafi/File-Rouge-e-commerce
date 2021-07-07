@@ -27,7 +27,7 @@
 
 @*<tbody> it's list of <tr></tr>*@
 <tbody>
-    @if (Products != null)
+    @if (Products != null && Products.Count() > 0)
     {
         @foreach (var product in Products)
         {
@@ -59,6 +59,6 @@
 
     private void HandleSearch(string filter)
     {
-
-   }
+        Products = searchProduct.Execute(filter); 
+    }
 }

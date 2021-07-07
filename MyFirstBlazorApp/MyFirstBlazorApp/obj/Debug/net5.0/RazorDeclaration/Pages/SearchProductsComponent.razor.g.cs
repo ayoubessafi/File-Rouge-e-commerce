@@ -126,8 +126,8 @@ using MyFirstBlazorApp.Controls;
 
     private void HandleSearch(string filter)
     {
-
-   }
+        Products = searchProduct.Execute(filter); 
+    }
 
 #line default
 #line hidden
