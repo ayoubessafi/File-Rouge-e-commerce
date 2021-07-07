@@ -66,3 +66,5 @@ C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBl
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\bin\Debug\net5.0\eShope.CoreBusiness.pdb
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\SearchProductsComponent.razor.g.cs
 C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\Razor\Pages\SearchProductsComponent.razor.g.cs
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\RazorDeclaration\Controls\SearchBarComponent.razor.g.cs
+C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\obj\Debug\net5.0\Razor\Controls\SearchBarComponent.razor.g.cs

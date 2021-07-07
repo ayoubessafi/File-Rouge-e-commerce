@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace MyFirstBlazorApp.Pages
+namespace MyFirstBlazorApp.Controls
 {
     #line hidden
     using System;
@@ -103,8 +103,7 @@ using MyFirstBlazorApp.Controls;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/dynamic")]
-    public partial class DynamicComponent : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class SearchBarComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -112,25 +111,18 @@ using MyFirstBlazorApp.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 19 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\DynamicComponent.razor"
+#line 9 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Controls\SearchBarComponent.razor"
        
-    //these two variables represent the State of the coomponent
-    private string title;
-    private string content;
 
-    //these two Handle it's represent the Event of the component
-    private void HandleBlazorServerClick()
+    private string filter;
+
+    [Parameter]
+    public EventCallback<string> onSearch { get; set; }
+
+    private void HandleSearch()
     {
-        title = "Blazor Server";
-        content = "some thing!!!";
+        onSearch.InvokeAsync(filter);
     }
-
-    private void HandleWebAssemblyClick()
-    {
-        title = "Blazor WebAssembly";
-        content = "some things!!!";
-    }
-
 
 #line default
 #line hidden

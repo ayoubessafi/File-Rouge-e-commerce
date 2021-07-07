@@ -2,14 +2,31 @@
 
 @inject ISearchProduct searchProduct
 
-<h3>SearchProductsComponent</h3>
+<h3>Search Products</h3>
+<br/>
+
+<SearchBarComponent onSearch="HandleSearch"></SearchBarComponent>
+
+<ul>
+    @foreach(var prod in Products)
+    {
+        <li>@prod.Name</li>
+    }
+</ul>
 
 @code { 
+
+    private IEnumerable<Product> Products;
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
 
-        var products = searchProduct.Execute();
+        Products = searchProduct.Execute();
+    }
+
+    private void HandleSearch(string filter)
+    {
+
     }
 }

@@ -89,6 +89,20 @@ using eShop.UseCases.SearchProductScreen;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\_Imports.razor"
+using eShope.CoreBusiness.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\_Imports.razor"
+using MyFirstBlazorApp.Controls;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/products")]
     public partial class SearchProductsComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,14 +112,21 @@ using eShop.UseCases.SearchProductScreen;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 7 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\SearchProductsComponent.razor"
+#line 17 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\SearchProductsComponent.razor"
         
+
+    private IEnumerable<Product> Products;
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
 
-        var products = searchProduct.Execute();
+        Products = searchProduct.Execute();
+    }
+
+    private void HandleSearch(string filter)
+    {
+
     }
 
 #line default
