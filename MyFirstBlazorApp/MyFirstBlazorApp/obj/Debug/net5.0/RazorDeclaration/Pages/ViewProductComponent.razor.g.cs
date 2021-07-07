@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace MyFirstBlazorApp.Controls
+namespace MyFirstBlazorApp.Pages
 {
     #line hidden
     using System;
@@ -103,7 +103,8 @@ using MyFirstBlazorApp.Controls;
 #line default
 #line hidden
 #nullable disable
-    public partial class ProductItemComponent : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/product/{id:int}")]
+    public partial class ViewProductComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -111,14 +112,25 @@ using MyFirstBlazorApp.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Controls\ProductItemComponent.razor"
+#line 23 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\ViewProductComponent.razor"
        
+    private Product product;
+
     [Parameter]
-    public Product product { get; set; }
+    public int Id { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+
+        if (Id > 0)
+            product = viewProduct.Execute(Id);  
+    }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IViewProduct viewProduct { get; set; }
     }
 }
 #pragma warning restore 1591
