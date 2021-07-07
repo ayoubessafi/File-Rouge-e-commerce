@@ -111,7 +111,7 @@ using MyFirstBlazorApp.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Controls\SearchBarComponent.razor"
+#line 10 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Controls\SearchBarComponent.razor"
        
 
     private string filter;

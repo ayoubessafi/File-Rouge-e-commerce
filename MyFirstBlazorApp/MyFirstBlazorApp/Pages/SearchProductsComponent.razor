@@ -8,8 +8,9 @@
 <br/>
 
 <SearchBarComponent onSearch="HandleSearch"></SearchBarComponent>
+
 <br/>
-<table>
+<table class="table">
     <thead>
         <tr>
             <th>
@@ -23,28 +24,28 @@
             </th>
         </tr>
     </thead>
-</table>
 
-@*<tbody> it's list of <tr></tr>*@
-<tbody>
-    @if (Products != null && Products.Count() > 0)
-    {
-        @foreach (var product in Products)
+
+    @*<tbody> it's list of <tr></tr>*@
+    <tbody>
+        @if (Products != null && Products.Count() > 0)
         {
-            <ProductItemComponent product="product"></ProductItemComponent>
+            @foreach (var product in Products)
+            {
+                <ProductItemComponent product="product"></ProductItemComponent>
+            }
         }
-    }
-    else
-    {
-        <tr>
-            <td colspan="3">
-                Cannot find products
-            </td>
-        </tr>
-    }
+        else
+        {
+            <tr>
+                <td colspan="3">
+                    Cannot find products
+                </td>
+            </tr>
+        }
 
-</tbody>
-
+    </tbody>
+</table>
 
 @code { 
 

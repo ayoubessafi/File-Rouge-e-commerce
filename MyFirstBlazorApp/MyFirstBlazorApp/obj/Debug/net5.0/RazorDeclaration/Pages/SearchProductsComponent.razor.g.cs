@@ -112,7 +112,7 @@ using MyFirstBlazorApp.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\SearchProductsComponent.razor"
+#line 50 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\SearchProductsComponent.razor"
         
 
     private IEnumerable<Product> Products;
