@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace MyFirstBlazorApp.Pages
+namespace MyFirstBlazorApp.Controls
 {
     #line hidden
     using System;
@@ -103,8 +103,7 @@ using MyFirstBlazorApp.Controls;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/products")]
-    public partial class SearchProductsComponent : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ProductItemComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -112,27 +111,14 @@ using MyFirstBlazorApp.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Pages\SearchProductsComponent.razor"
-        
-
-    private IEnumerable<Product> Products;
-
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-
-        Products = searchProduct.Execute();
-    }
-
-    private void HandleSearch(string filter)
-    {
-
-   }
+#line 10 "C:\Users\Administrateur\Desktop\File-Rouge-e-commerce\MyFirstBlazorApp\MyFirstBlazorApp\Controls\ProductItemComponent.razor"
+       
+    [Parameter]
+    public Product product { get; set; }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ISearchProduct searchProduct { get; set; }
     }
 }
 #pragma warning restore 1591

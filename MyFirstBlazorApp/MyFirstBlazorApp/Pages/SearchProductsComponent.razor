@@ -1,4 +1,6 @@
-﻿@page "/products"
+﻿@*the parent componentr
+*@
+@page "/products"
 
 @inject ISearchProduct searchProduct
 
@@ -6,13 +8,43 @@
 <br/>
 
 <SearchBarComponent onSearch="HandleSearch"></SearchBarComponent>
+<br/>
+<table>
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Brand
+            </th>
+            <th>
+                Price
+            </th>
+        </tr>
+    </thead>
+</table>
 
-<ul>
-    @foreach(var prod in Products)
+@*<tbody> it's list of <tr></tr>*@
+<tbody>
+    @if (Products != null)
     {
-        <li>@prod.Name</li>
+        @foreach (var product in Products)
+        {
+            <ProductItemComponent product="product"></ProductItemComponent>
+        }
     }
-</ul>
+    else
+    {
+        <tr>
+            <td colspan="3">
+                Cannot find products
+            </td>
+        </tr>
+    }
+
+</tbody>
+
 
 @code { 
 
@@ -28,5 +60,5 @@
     private void HandleSearch(string filter)
     {
 
-    }
+   }
 }
